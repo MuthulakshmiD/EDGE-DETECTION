@@ -22,17 +22,17 @@ Using Sobel operator from cv2,detect the edges of the image.
 
 Using Laplacian operator from cv2,detect the edges of the image and Using Canny operator from cv2,detect the edges of the image.
 
-## Output:
-### SOBEL EDGE DETECTOR
+## Inputs
 
-![output](./sobel.png)
+• A grayscale or color image (if color, converted to grayscale).
 
-### LAPLACIAN EDGE DETECTOR
-![output](./laplacian.png)
+• Optional parameters like threshold levels and kernel size.
 
+## Outputs
 
-### CANNY EDGE DETECTOR
-![output](./canny.png)
+• A binary edge map (pixels labeled as edge or non-edge).
+
+• Visualization of detected edges superimposed on the original image
 
 ## Result:
 Thus the edges are detected using Sobel, Laplacian, and Canny edge detectors.
